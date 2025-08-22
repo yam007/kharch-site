@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy – Kharch: Daily Expense Tracker</title>
+  <meta name="description" content="Privacy Policy for Kharch: Daily Expense Tracker – how we collect, use, and protect your data." />
+  <link rel="canonical" href="https://YOUR-DOMAIN.example.com/privacy" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Privacy Policy – Kharch" />
+  <meta property="og:description" content="Privacy Policy for Kharch: Daily Expense Tracker." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://YOUR-DOMAIN.example.com/privacy" />
+  <meta name="twitter:card" content="summary" />
+
+  <style>
+    :root {
+      --bg: #0b1020;
+      --card: #111732;
+      --text: #e8ecf2;
+      --muted: #a7b0c3;
+      --accent: #7aa2ff;
+      --ring: rgba(122,162,255,.35);
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0; font-family: system-ui,-apple-system,Segoe UI,Roboto,Inter,Helvetica,Arial,sans-serif;
+      background: radial-gradient(1200px 800px at 10% -10%, #1a2250 0%, transparent 60%),
+                  radial-gradient(1200px 800px at 110% 10%, #182044 0%, transparent 60%),
+                  var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: 840px; margin: 4rem auto; padding: 0 1rem;
+    }
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+      backdrop-filter: blur(6px);
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,.35);
+      padding: 2rem; position: relative; overflow: hidden;
+    }
+    .card::before { /* subtle ring */
+      content: ""; position: absolute; inset: -2px; border-radius: 22px; pointer-events: none;
+      box-shadow: 0 0 0 2px var(--ring);
+    }
+    h1 { font-size: clamp(1.7rem, 1.2rem + 2vw, 2.4rem); margin: 0 0 1rem; }
+    h2 { font-size: 1.25rem; margin: 2rem 0 .75rem; }
+    p, li { color: var(--text); }
+    .muted { color: var(--muted); }
+    .badge { display: inline-block; padding: .35rem .6rem; border-radius: 999px; background: rgba(122,162,255,.12); color: var(--accent); font-weight: 600; letter-spacing: .2px; }
+    .meta { display:flex; gap:.75rem; flex-wrap:wrap; align-items:center; margin-bottom:1rem; }
+    .list { padding-left: 1.1rem; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer { margin-top: 2rem; font-size: .95rem; color: var(--muted); }
+    code { background: rgba(255,255,255,.08); padding: .1rem .35rem; border-radius: 6px; }
+    @media print {
+      body { background: #fff; color: #000; }
+      .card, .card::before { box-shadow: none; border: 1px solid #ddd; }
+      a { color: #0645ad; }
+    }
+  </style>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Privacy Policy – Kharch: Daily Expense Tracker",
+    "url": "https://YOUR-DOMAIN.example.com/privacy",
+    "description": "Privacy Policy for Kharch: Daily Expense Tracker",
+    "about": {"@type":"MobileApplication","name":"Kharch: Daily Expense Tracker"}
+  }
+  </script>
+</head>
+<body>
+  <main class="wrap">
+    <article class="card" role="article" aria-labelledby="title">
+      <div class="meta"><span class="badge">Privacy Policy</span>
+        <span class="muted">Effective Date: <time id="effectiveDate">YYYY-MM-DD</time></span>
+      </div>
+      <h1 id="title">Kharch: Daily Expense Tracker – Privacy Policy</h1>
+
+      <p>Kharch ("we," "our," or "us") provides a personal finance app to help you track daily expenses. This Privacy Policy describes how we collect, use, share, and protect information when you use the Kharch mobile application (the "App"). By using the App, you agree to this Policy.</p>
+
+      <h2>1) Information We Collect</h2>
+      <ul class="list">
+        <li><strong>Information You Provide</strong>: Manual expense entries (amount, category, payment method, notes) and optional account information (email or phone number if you sign in).</li>
+        <li><strong>Expense SMS (Pro, optional)</strong>: If you grant SMS read permission, the App accesses and processes only financial-transaction SMS (bank, card, wallet, UPI) to extract expenses. Other messages are ignored.</li>
+        <li><strong>Device & Diagnostics</strong>: Basic device details, crash logs, and performance data to improve stability and functionality.</li>
+      </ul>
+
+      <h2>2) How We Use Information</h2>
+      <ul class="list">
+        <li>Record, categorize, and display your expenses.</li>
+        <li>Provide insights and summaries of your spending.</li>
+        <li>Enable syncing or backup if you choose to sign in.</li>
+        <li>Maintain and improve the App's performance and reliability.</li>
+      </ul>
+      <p>We do <strong>not</strong> sell, rent, or trade your personal information.</p>
+
+      <h2>3) Data Sharing</h2>
+      <p>We do not share your personal or financial data with third parties except:</p>
+      <ul class="list">
+        <li><strong>Service Providers</strong> that process data on our behalf (e.g., cloud hosting, analytics) strictly for App functionality and under appropriate safeguards.</li>
+        <li><strong>Legal Requirements</strong> when disclosure is necessary to comply with applicable law, regulation, or lawful request.</li>
+      </ul>
+
+      <h2>4) Permissions & Controls</h2>
+      <ul class="list">
+        <li><strong>SMS Permission (Optional)</strong>: You can deny SMS access; the App will still function for manual entries. If granted, SMS data is processed for expense detection only.</li>
+        <li><strong>Manage Your Data</strong>: You can delete expenses within the App. You may also request account deletion or data export by contacting us.</li>
+        <li><strong>Security</strong>: We apply industry-standard safeguards, including encryption in transit and at rest where appropriate.</li>
+      </ul>
+
+      <h2>5) Data Retention</h2>
+      <p>We retain data only for as long as needed to provide the App and comply with legal obligations. You can request deletion of your data at any time.</p>
+
+      <h2>6) Children’s Privacy</h2>
+      <p>The App is not directed to children under 13, and we do not knowingly collect personal data from children.</p>
+
+      <h2>7) International Users</h2>
+      <p>Your information may be processed and stored on servers located outside your state or country. By using the App, you consent to such processing and storage consistent with this Policy.</p>
+
+      <h2>8) Changes to This Policy</h2>
+      <p>We may update this Policy from time to time. We will post the updated version here and update the effective date.</p>
+
+      <h2>9) Contact Us</h2>
+      <p>If you have questions, requests for data deletion/export, or concerns, contact us:</p>
+      <ul class="list">
+        <li>Email: <a href="mailto:YOUR-CONTACT-EMAIL">YOUR-CONTACT-EMAIL</a></li>
+        <li>Website: <a href="https://YOUR-DOMAIN.example.com" rel="noopener">https://YOUR-DOMAIN.example.com</a></li>
+        <li>App: Kharch: Daily Expense Tracker</li>
+      </ul>
+
+      <footer>
+        <p class="muted">© <span id="year"></span> Kharch. All rights reserved.</p>
+      </footer>
+    </article>
+  </main>
+
+  <script>
+    // Replace placeholders easily without editing the markup
+    (function() {
+      const SETTINGS = {
+        effectiveDate: "2025-08-22", // ← update to today's publish date
+        contactEmail: "yamanchauhan0@gmail.com",
+      };
+      document.getElementById('effectiveDate').textContent = SETTINGS.effectiveDate;
+      document.getElementById('year').textContent = new Date().getFullYear();
+      // keep meta/canonical in sync if desired
+      const canon = document.querySelector('link[rel="canonical"]');
+      if (canon && SETTINGS.siteUrl) canon.setAttribute('href', SETTINGS.siteUrl);
+      const og = document.querySelector('meta[property="og:url"]');
+      if (og && SETTINGS.siteUrl) og.setAttribute('content', SETTINGS.siteUrl);
+    })();
+  </script>
+</body>
+</html>
